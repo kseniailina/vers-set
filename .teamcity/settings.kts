@@ -30,7 +30,7 @@ project {
     buildType(Build)
 
     params {
-        param("abc=3", "")
+        param("abc=3", "123")
     }
 }
 
