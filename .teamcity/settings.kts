@@ -28,6 +28,10 @@ version = "2020.1"
 project {
 
     buildType(Build)
+
+    params {
+        param("abc=3", "")
+    }
 }
 
 object Build : BuildType({
