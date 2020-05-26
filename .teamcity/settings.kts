@@ -34,6 +34,10 @@ object Build : BuildType({
     name = "Build"
     description = "load this setting"
 
+    params {
+        param("param", "1")
+    }
+
     vcs {
         root(DslContext.settingsRoot)
     }
